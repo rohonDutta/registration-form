@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration Form 3</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style3.css">
+</head>
+<body>
+	<h2>Registration Form</h2>
+	<form id="regForm">
+		<label for="name">Name:</label>
+		<input type="text" id="name" name="name" required><br><br>
+
+		<label for="email">Email:</label>
+		<input type="email" id="email" name="email" required><br><br>
+
+		<label for="password">Password:</label>
+		<input type="password" id="password" name="password" required><br><br>
+
+		<label for="dob">Date of Birth:</label>
+		<input type="date" id="dob" name="dob" required><br><br>
+
+		<label >
+			I accept the terms and conditions  <input type="checkbox" name="terms" class="check" id="terms" required> 
+			
+		</label>
+    </div>
+        <br><br>
+
+		<button type="submit">Submit</button>
+	</form>
+	<br><br>
+	<table id="userTable" border="1">
+		<thead>
+			<tr>
+				<th>Name</th>
+				<th>Email</th>
+				<th>Password</th>
+				<th>Dob</th>
+				<th>Accepted Terms?</th>
+			</tr>
+		</thead>
+		<tbody>
+		</tbody>
+	</table>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script src="page3.js"></script>
+</body>
+</html>
